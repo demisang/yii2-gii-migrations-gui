@@ -1,0 +1,29 @@
+{
+    "name": "demi/yii2-gii-migrations-gui",
+    "description": "Generate Yii2 database migrations in the gii interface",
+    "keywords": ["yii2", "gii", "migration", "generator"],
+    "homepage": "https://github.com/demisang/yii2-gii-migrations-gui#readme",
+    "type": "yii2-extension",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Ivan Orlov",
+            "email": "orlov_mail@mail.ru",
+            "homepage": "https://orlov.io/",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/demisang/yii2-gii-migrations-gui/issues",
+        "source": "https://github.com/demisang/yii2-gii-migrations-gui"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "demi\\gii\\migration\\": ""
+        }
+    }
+}
